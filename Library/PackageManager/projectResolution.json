@@ -1,0 +1,95 @@
+{
+  "context": {
+    "projectPath": "C:/Users/ohseongjun/.codex/.chatgpt-projects/g-p-6aaa4742a8708191a4993281016323e3/SpaceJanitorsArt/Packages",
+    "unityVersion": "6000.5.10f1"
+  },
+  "inputs": [
+    "C:\\Users\\ohseongjun\\.codex\\.chatgpt-projects\\g-p-6aaa4742a8708191a4993281016323e3\\SpaceJanitorsArt\\Packages\\manifest.json",
+    "C:\\Users\\ohseongjun\\.codex\\.chatgpt-projects\\g-p-6aaa4742a8708191a4993281016323e3\\SpaceJanitorsArt\\Packages\\packages-lock.json",
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.5.10f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+  ],
+  "outputs": {
+    "com.unity.modules.jsonserialize@1.0.0": {
+      "name": "com.unity.modules.jsonserialize",
+      "displayName": "JSONSerialize",
+      "resolvedPath": "C:\\Users\\ohseongjun\\.codex\\.chatgpt-projects\\g-p-6aaa4742a8708191a4993281016323e3\\SpaceJanitorsArt\\Library\\PackageCache\\com.unity.modules.jsonserialize",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.ugui@2.5.0": {
+      "name": "com.unity.ugui",
+      "displayName": "uGUI",
+      "resolvedPath": "C:\\Users\\ohseongjun\\.codex\\.chatgpt-projects\\g-p-6aaa4742a8708191a4993281016323e3\\SpaceJanitorsArt\\Library\\PackageCache\\com.unity.ugui@1c4864518158",
+      "fingerprint": "1c4864518158e22db1a992bb876b0026299b3038",
+      "editorCompatibility": "6000.5.0a1",
+      "version": "2.5.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.physics@1.0.0": {
+      "name": "com.unity.modules.physics",
+      "displayName": "Physics",
+      "resolvedPath": "C:\\Users\\ohseongjun\\.codex\\.chatgpt-projects\\g-p-6aaa4742a8708191a4993281016323e3\\SpaceJanitorsArt\\Library\\PackageCache\\com.unity.modules.physics",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.imageconversion@1.0.0": {
+      "name": "com.unity.modules.imageconversion",
+      "displayName": "Image Conversion",
+      "resolvedPath": "C:\\Users\\ohseongjun\\.codex\\.chatgpt-projects\\g-p-6aaa4742a8708191a4993281016323e3\\SpaceJanitorsArt\\Library\\PackageCache\\com.unity.modules.imageconversion",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.imgui@1.0.0": {
+      "name": "com.unity.modules.imgui",
+      "displayName": "IMGUI",
+      "resolvedPath": "C:\\Users\\ohseongjun\\.codex\\.chatgpt-projects\\g-p-6aaa4742a8708191a4993281016323e3\\SpaceJanitorsArt\\Library\\PackageCache\\com.unity.modules.imgui",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.screencapture@1.0.0": {
+      "name": "com.unity.modules.screencapture",
+      "displayName": "Screen Capture",
+      "resolvedPath": "C:\\Users\\ohseongjun\\.codex\\.chatgpt-projects\\g-p-6aaa4742a8708191a4993281016323e3\\SpaceJanitorsArt\\Library\\PackageCache\\com.unity.modules.screencapture",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.ui@1.0.0": {
+      "name": "com.unity.modules.ui",
+      "displayName": "UI",
+      "resolvedPath": "C:\\Users\\ohseongjun\\.codex\\.chatgpt-projects\\g-p-6aaa4742a8708191a4993281016323e3\\SpaceJanitorsArt\\Library\\PackageCache\\com.unity.modules.ui",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.audio@1.0.0": {
+      "name": "com.unity.modules.audio",
+      "displayName": "Audio",
+      "resolvedPath": "C:\\Users\\ohseongjun\\.codex\\.chatgpt-projects\\g-p-6aaa4742a8708191a4993281016323e3\\SpaceJanitorsArt\\Library\\PackageCache\\com.unity.modules.audio",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.physics2d@1.0.0": {
+      "name": "com.unity.modules.physics2d",
+      "displayName": "Physics 2D",
+      "resolvedPath": "C:\\Users\\ohseongjun\\.codex\\.chatgpt-projects\\g-p-6aaa4742a8708191a4993281016323e3\\SpaceJanitorsArt\\Library\\PackageCache\\com.unity.modules.physics2d",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.physicscore2d@1.0.0": {
+      "name": "com.unity.modules.physicscore2d",
+      "displayName": "Physics Core 2D",
+      "resolvedPath": "C:\\Users\\ohseongjun\\.codex\\.chatgpt-projects\\g-p-6aaa4742a8708191a4993281016323e3\\SpaceJanitorsArt\\Library\\PackageCache\\com.unity.modules.physicscore2d",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    }
+  }
+}

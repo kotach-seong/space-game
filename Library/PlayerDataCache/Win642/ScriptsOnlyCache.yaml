@@ -1,0 +1,696 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - SJBin
+    - SJCanvasHUD
+    - SJGame
+    - SJInteractable
+    - SJMenu
+    - SJPlayer
+    - SJSettingsPanel
+    - SJSpaceGraphic
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.Dropdown
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+  serializedClasses:
+    UnityEngine.CoreModule:
+    - UnityEngine.Bounds
+    - UnityEngine.Color
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.LayerMask
+    - UnityEngine.Vector2
+    - UnityEngine.Vector2Int
+    - UnityEngine.Vector3
+    - UnityEngine.Vector4
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.Dropdown/DropdownEvent
+    - UnityEngine.UI.Dropdown/OptionDataList
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.InputField/EndEditEvent
+    - UnityEngine.UI.InputField/OnChangeEvent
+    - UnityEngine.UI.InputField/SubmitEvent
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: JoinPreview
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: ShowSolo
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: ShowOnline
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: StartFlight
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: ShowCreate
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: CheckPassword
+  - assembly: Assembly-CSharp
+    fullTypeName: SJSettingsPanel
+    methodName: Apply
+  - assembly: Assembly-CSharp
+    fullTypeName: SJSettingsPanel
+    methodName: ShowControls
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: Quit
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: ShowHome
+  - assembly: Assembly-CSharp
+    fullTypeName: SJSettingsPanel
+    methodName: ShowDisplay
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: ShowHome
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: ShowOnline
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: CreatePreview
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: Slot2
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: ShowSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: SJSettingsPanel
+    methodName: ShowAudio
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: ShowOnline
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: Slot0
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: Slot1
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: ShowHome
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: Slot3
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: FilterRooms
+  - assembly: Assembly-CSharp
+    fullTypeName: SJMenu
+    methodName: OnPrivacyChanged
+  - assembly: Assembly-CSharp
+    fullTypeName: SJSettingsPanel
+    methodName: Back
+  - assembly: Assembly-CSharp
+    fullTypeName: SJSettingsPanel
+    methodName: Defaults
+  - assembly: Assembly-CSharp
+    fullTypeName: SJSettingsPanel
+    methodName: Apply
+  - assembly: Assembly-CSharp
+    fullTypeName: SJCanvasHUD
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: SJCanvasHUD
+    methodName: OpenSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: SJCanvasHUD
+    methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: SJSettingsPanel
+    methodName: Back
+  - assembly: Assembly-CSharp
+    fullTypeName: SJCanvasHUD
+    methodName: Shop
+  - assembly: Assembly-CSharp
+    fullTypeName: SJSettingsPanel
+    methodName: ShowAudio
+  - assembly: Assembly-CSharp
+    fullTypeName: SJCanvasHUD
+    methodName: Continue
+  - assembly: Assembly-CSharp
+    fullTypeName: SJCanvasHUD
+    methodName: Quit
+  - assembly: Assembly-CSharp
+    fullTypeName: SJSettingsPanel
+    methodName: ShowDisplay
+  - assembly: Assembly-CSharp
+    fullTypeName: SJSettingsPanel
+    methodName: ShowControls
+  - assembly: Assembly-CSharp
+    fullTypeName: SJSettingsPanel
+    methodName: Defaults
+  sceneClasses:
+    Assets/Frigate/Scenes/Kestrel_FirstPerson.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 1363c53aa08c9de43aad0a1b7b3495db, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: de8c0ad4eb7494d4db7edb0ccca7573c, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: e6b6fae335c8b1e47853469b915c38b3, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 24f26f2dcb1421542b44ac2f8ed0074d, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 38a0c6e0ed835d149b0f4083b4a84636, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 92ac87e06936e7e449e52a7ea4e32123, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 90853689d1cbacf4d96eb70cf67535f3, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/SpaceJanitors/Scenes/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 1539a9f0d25b5dc438b392d030e03deb, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 92ac87e06936e7e449e52a7ea4e32123, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 90853689d1cbacf4d96eb70cf67535f3, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 0d0b652f32a2cc243917e4028fa0f046, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: d199490a83bb2b844b9695cbf13b01ef, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+    - Class: 114
+      Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: dd9dda1dfd39e605c49e72003342ef5d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 8dff8e9853297d341afa0c11f9091b59
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 00bbd9db8634496d079d17711b2ff7c4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 9be4976749aaa9e239bbb5570ffb549f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SJSpaceGraphic
+  - hash:
+      serializedVersion: 2
+      Hash: d476fbcc439fbb08c2e253c02ad2f424
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SJSettingsPanel
+  - hash:
+      serializedVersion: 2
+      Hash: c888f71cf0a50d2e278c4164992bcec3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SJPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 352d1b0b415948a6dbccd947ccbfaf71
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SJMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 28fd3d045acc780719a17f02073eb448
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 999ec126b5cbe7a9728c32f41b049731
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: bfa9d6dfbc3c74a843a3b197bdcc6639
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 9efb788be0d6880bec6898aca242d668
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SJBin
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc40a01667ca02b3354a4e7a61be082
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 33f160a5c07e580c29aba2bd1e4db811
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: a00ec3049eea18e8ef7781ee2ffe38f3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SJCanvasHUD
+  - hash:
+      serializedVersion: 2
+      Hash: 9bf26163d03f5790d55bcd9ba4bdd311
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MapRevisionPlaytest
+  - hash:
+      serializedVersion: 2
+      Hash: fef7b1de2fd1557ad8228e9840b78b9c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 13f262cc0741566a7ab72682984bc3e1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 20a120e55ad3ab65556328d5fd8309dd
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 4878e735441f4041539853759559c86f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e8d390bd9ecacc453a7500b90d0c0292
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: afb7b65d28d5a7423e69a1b076be0064
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebc58ec194dd44630b25fcc270ad4af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f9885acfcee5df3b9432c56dc64e1478
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SJFloatingBody
+  - hash:
+      serializedVersion: 2
+      Hash: 1553f209ae0b2d5d3a35685fca55f9c3
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 4fcf0bb4aff1d14a1dfcdedc4b07bd05
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 8d5318ed8488b1fe17c08044ce1b8309
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab136900c0edaeeb49424c852595030
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: e987953190eb4c12cf19df790566dc2c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: e18dfd2b913b09fbbb2405165a2e6a44
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4aa2850fe11587f47e34c270c7fd22
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6dc3d79712ca4934f6d50c80f010b1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 7731709f666e6d4a4f9fb099048dafa9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SJGlobalDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: a1ac4c50e55874de16eee3db71aa9784
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: de6d3c844f9bbfae4eaba4c09efbc695
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SJInteractable
+  - hash:
+      serializedVersion: 2
+      Hash: cf32d98954e63b8e30e9334b152e9b8e
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 12ed48331d73e09b563307a94293c231
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SJMenuTest
+  - hash:
+      serializedVersion: 2
+      Hash: b747f5d40674055dd70e18552f1b0447
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 185e7bacfbbc5defefa609c70f7ff4ce
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 7053e305cdc1eb560f4c3be49d3b5136
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 1a680d9a08de79b0d2c779e78c9843b4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: cc4b38a970d89b8629abff11ffe4f4fd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SJGame
+  - hash:
+      serializedVersion: 2
+      Hash: e7e95903ca66d58e1a7cbd71f824e16d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 810e3c228b295cc60c4de2cdd94b18cb
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e6ee7dccba41ae87d10e3d922c6cb71c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 53e329840e6d03aebec76623c3b054db
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 15fbaf567ef27d7ad54a77e7de40079f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RaycastReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: e6b258489c88376c5869946b2735e7e5
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b5007673bbbdb9d12597a1d8201370f5
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 75813dbdd8b37e3e7f5f1e0ea5825acc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SJPlaytest
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 33656f83bb0079184b2206a69690ec46
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 9104447b683bf70406fa01f12ecb564a
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: a90f6a00b23520788be7d89ee3b0773d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 8bbce9932f67ad8e7f4eefec87800f94
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: d0cdd713f9bf4e6a625d9e7804deca42
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  platform: 19
+  scenePathNames:
+  - Assets/SpaceJanitors/Scenes/MainMenu.unity
+  - Assets/Frigate/Scenes/Kestrel_FirstPerson.unity
+  nativeClasses: 
+  playerPath: C:/Users/ohseongjun/.codex/.chatgpt-projects/g-p-6aaa4742a8708191a4993281016323e3/Deliverables/MapRevision/Windows/SpaceJanitors.exe

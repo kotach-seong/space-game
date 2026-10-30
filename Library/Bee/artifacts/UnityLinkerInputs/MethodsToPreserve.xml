@@ -1,0 +1,48 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="SJCanvasHUD">
+			<method name="Continue"/>
+			<method name="MainMenu"/>
+			<method name="OpenSettings"/>
+			<method name="Quit"/>
+			<method name="Restart"/>
+			<method name="Shop"/>
+		</type>
+		<type fullname="SJMenu">
+			<method name="CheckPassword"/>
+			<method name="CreatePreview"/>
+			<method name="FilterRooms"/>
+			<method name="JoinPreview"/>
+			<method name="OnPrivacyChanged"/>
+			<method name="Quit"/>
+			<method name="ShowCreate"/>
+			<method name="ShowHome"/>
+			<method name="ShowHome"/>
+			<method name="ShowHome"/>
+			<method name="ShowOnline"/>
+			<method name="ShowOnline"/>
+			<method name="ShowOnline"/>
+			<method name="ShowSettings"/>
+			<method name="ShowSolo"/>
+			<method name="Slot0"/>
+			<method name="Slot1"/>
+			<method name="Slot2"/>
+			<method name="Slot3"/>
+			<method name="StartFlight"/>
+		</type>
+		<type fullname="SJSettingsPanel">
+			<method name="Apply"/>
+			<method name="Apply"/>
+			<method name="Back"/>
+			<method name="Back"/>
+			<method name="Defaults"/>
+			<method name="Defaults"/>
+			<method name="ShowAudio"/>
+			<method name="ShowAudio"/>
+			<method name="ShowControls"/>
+			<method name="ShowControls"/>
+			<method name="ShowDisplay"/>
+			<method name="ShowDisplay"/>
+		</type>
+	</assembly>
+</linker>
